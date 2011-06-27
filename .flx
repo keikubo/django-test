@@ -1,2 +1,2 @@
 [deploy]
-pip install -r req.txt --user
+pip install -r req.txt -I --user
