@@ -1,2 +1,2 @@
-[setup]
-pip install django
+[deploy]
+pip install -r req.txt --user
