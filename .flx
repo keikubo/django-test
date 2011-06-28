@@ -3,7 +3,7 @@ settings.py FLX_DB_NAME      PROJECT_NAME
 settings.py FLX_DB_USER      DB_USER
 settings.py FLX_DB_PASS      DB_PASSWORD
 settings.py FLX_DB_HOST      DB_HOST
-settings.py FLX_PROJECT_NAME PROJECT_NAME
+public_html/dispatch.fcgi FLX_PROJECT_NAME PROJECT_NAME
 
 [deploy]
 pip install -r req.txt -I --install-option="--user"
