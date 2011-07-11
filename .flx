@@ -6,7 +6,7 @@ settings.py FLX_DB_HOST      DB_HOST
 public_html/dispatch.fcgi FLX_PROJECT_NAME PROJECT_NAME
 
 [setup]
-/usr/bin/env python manage.py syncdb
+#/usr/bin/env python manage.py syncdb
 
 [deploy]
 pip install -r req.txt -I --install-option="--user"
